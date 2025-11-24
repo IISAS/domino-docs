@@ -81,7 +81,7 @@ const config = {
         logo: {
           alt: 'Domino Logo',
           src: 'brand/png/main_logo.png',
-          href: "https://domino-workflows.io",
+          href: "https://iisas.github.io/domino-docs",
           target: '_self',
           srcDark: 'brand/png/main_logo_white.png',
         },
