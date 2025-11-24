@@ -11,15 +11,14 @@ const config = {
   favicon: 'favicon/favicon.ico',
 
   // Set the production url of your site here
-  // url: 'https://tauffer-consulting.github.io',
-  url: 'https://docs.domino-workflows.io/',
+  url: 'https://iisas.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/domino-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Tauffer-Consulting', // Usually your GitHub org/user name.
+  organizationName: 'IISAS', // Usually your GitHub org/user name.
   projectName: 'domino-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -96,7 +95,7 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'right' },
           { to: '/gallery', label: 'Gallery', position: 'right' },
           {
-            href: 'https://github.com/Tauffer-Consulting/domino',
+            href: 'https://github.com/IISAS/domino',
             label: 'GitHub',
             position: 'right',
           },
@@ -114,23 +113,23 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discussions',
-                href: 'https://github.com/Tauffer-Consulting/domino/discussions',
-              },
-              {
-                label: 'Twitter / X',
-                href: 'https://x.com/DominoWorkflows',
-              },
-              {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/@DominoWorkflows',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Discussions',
+          //       href: 'https://github.com/Tauffer-Consulting/domino/discussions',
+          //     },
+          //     {
+          //       label: 'Twitter / X',
+          //       href: 'https://x.com/DominoWorkflows',
+          //     },
+          //     {
+          //       label: 'Youtube',
+          //       href: 'https://www.youtube.com/@DominoWorkflows',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [
@@ -140,12 +139,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Tauffer-Consulting/domino',
+                href: 'https://github.com/IISAS/domino',
               },
-              {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/company/domino-workflows',
-              },
+              // {
+              //   label: 'Linkedin',
+              //   href: 'https://www.linkedin.com/company/domino-workflows',
+              // },
             ],
           },
         ],
